@@ -30,9 +30,9 @@ public class Human  implements Action  {
     @Override
     public void jump(Wall wall) {
         if (getJumpLimitHum()>= wall.getHeight()){
-            System.out.println("Кот перепрыгнул стену высотой  " + wall.getHeight() + " метров.");
+            System.out.println("Человек перепрыгнул стену высотой  " + wall.getHeight() + " метров.");
         } else {
-            System.out.println("Кот выбыл из соревнований. ");
+            System.out.println("Человек выбыл из соревнований. ");
         }
     }
 }
